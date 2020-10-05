@@ -1,7 +1,8 @@
 # smomi1
 По умолчанию `BATCH_SIZE = 64` `lr=0.000001`.
 
-1. В данной модели 2 сверточных слоя, каждый по 8 фильтров.
+## 1. В данной модели 2 сверточных слоя, каждый по 8 фильтров.
+
 ```
 def build_model():
     return tf.keras.models.Sequential([
@@ -24,7 +25,8 @@ def build_model():
 
 ![alt text](https://github.com/Uniderwy/smomi1/blob/main/88loss.jpg)
 
-2. В данной модели 3 сверточных слоя, каждый по 8 фильтров.
+
+## 2. В данной модели 3 сверточных слоя, каждый по 8 фильтров.
 ```
 def build_model():
     return tf.keras.models.Sequential([
@@ -49,7 +51,7 @@ def build_model():
 
 ![alt text](https://github.com/Uniderwy/smomi1/blob/main/888loss.jpg)
 
-3. В данной модели 3 сверточных слоя, первые два по 8 фильтров, третий - 16.
+## 3. В данной модели 3 сверточных слоя, первые два по 8 фильтров, третий - 16.
 ```
 def build_model():
     return tf.keras.models.Sequential([
@@ -74,7 +76,7 @@ def build_model():
 
 ![alt text](https://github.com/Uniderwy/smomi1/blob/main/8816loss.jpg)
 
-4. В данной модели 4 сверточных слоя, первые два по 8 фильтров, третий и четвертый - по 16.
+## 4. В данной модели 4 сверточных слоя, первые два по 8 фильтров, третий и четвертый - по 16.
 ```
 def build_model():
     return tf.keras.models.Sequential([
@@ -102,7 +104,7 @@ def build_model():
 ![alt text](https://github.com/Uniderwy/smomi1/blob/main/881616loss.jpg)
 
 
-5. В данной модели 4 сверточных слоя, первые два по 8 фильтров, третий - 16, четвертый - 32.
+## 5. В данной модели 4 сверточных слоя, первые два по 8 фильтров, третий - 16, четвертый - 32.
 ```
 def build_model():
     return tf.keras.models.Sequential([
@@ -129,7 +131,7 @@ def build_model():
 
 ![alt text](https://github.com/Uniderwy/smomi1/blob/main/881632loss.jpg)
 
-6. В данной модели 5 сверточных слоев, первые два по 8 фильтров, третий - 16, четвертый и пятый - 32.
+## 6. В данной модели 5 сверточных слоев, первые два по 8 фильтров, третий - 16, четвертый и пятый - 32.
 ```
 def build_model():
     return tf.keras.models.Sequential([
@@ -158,7 +160,7 @@ def build_model():
 
 ![alt text](https://github.com/Uniderwy/smomi1/blob/main/88163232loss.jpg)
 
-7. В данной модели 5 сверточных слоев, первые два по 8 фильтров, третий - 16, четвертый - 32, пятый - 64.
+## 7. В данной модели 5 сверточных слоев, первые два по 8 фильтров, третий - 16, четвертый - 32, пятый - 64.
 ```
 def build_model():
     return tf.keras.models.Sequential([
