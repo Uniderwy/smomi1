@@ -1,8 +1,7 @@
 # smomi1
 По умолчанию `BATCH_SIZE = 64` `lr=0.000001`.
 
-1. 
-В данной модели 2 сверточных слоя, каждый по 8 фильтров.
+1. В данной модели 2 сверточных слоя, каждый по 8 фильтров.
 ```
 def build_model():
     return tf.keras.models.Sequential([
@@ -16,7 +15,9 @@ def build_model():
     ])
 ```
 Графики точности
+
 ![alt text](https://github.com/Uniderwy/smomi1/blob/main/88ac.jpg)
 
 Графики функции потерь
+
 ![alt text](https://github.com/Uniderwy/smomi1/blob/main/88loss.jpg)
